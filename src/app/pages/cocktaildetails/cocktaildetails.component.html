@@ -1,0 +1,10 @@
+
+  <div class="card mb-3" *ngFor="let c of ingDrink" style="    display: flex;
+  flex-direction: row">
+    <img width="25%"  src="{{c.strDrinkThumb}}" alt="">
+    <div class="card-body">
+      <h2  class="card-title">{{c.strIngredient1}}</h2>
+      <p class="card-text">{{c.strIngredient3}} {{c.strAlcoholic}}.</p>
+      <p class="card-text"><small class="text-muted">{{c.strInstructions}}</small></p>
+    </div>
+  </div>
